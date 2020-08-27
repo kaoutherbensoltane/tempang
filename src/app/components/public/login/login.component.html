@@ -1,0 +1,64 @@
+<!--::header part start::-->
+<app-navbar></app-navbar>
+<!-- Header part end-->
+
+
+<!-- breadcrumb start-->
+<section class="breadcrumb breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner text-center">
+                    <div class="breadcrumb_iner_item">
+                        <h2>Login</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- breadcrumb start-->
+
+<!-- ================ contact section start ================= -->
+<section class="contact-section section_padding">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
+                    novalidate="novalidate">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input class="form-control" name="email" id="email" type="text"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your mail'"
+                                    placeholder='Enter your email'>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input class="form-control" name="password" id="password" type="text"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter paassword '"
+                                    placeholder='Enter email address'>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="form-group mt-3">
+                        <button type="submit" class="button button-contactForm btn_1">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ================ contact section end ================= -->
+
+
+<!-- footer part start-->
+<app-footer></app-footer>
+<!-- footer part end-->

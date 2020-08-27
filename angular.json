@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "elearn2020"
+    }
+  },
+  "defaultProject": "elearn2020",
+  "cli": {
+    "analytics": false
+  }
 }
